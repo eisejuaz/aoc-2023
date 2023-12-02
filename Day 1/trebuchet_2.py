@@ -1006,6 +1006,9 @@ cqmzqbxzfv1vmmmlxsnjr5zfg
 
 arrayedInput = input.splitlines()
 
+# the trick here was to replace text occurrences with numbers and run the same script.
+# only precaution: beware of text overlaps. you need to do one replacement first that protects against edge cases
+
 # find the digits in the array by checking char by char if they are digits, and appending them first in an element called block, and then appending blocks to a new array called digitsInArrayedInput
 
 digitsInArrayedInput = []
